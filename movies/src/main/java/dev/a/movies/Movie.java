@@ -12,7 +12,7 @@ import java.util.List;
 
 @Document(collection = "movies")
 @Data
-@AllArgsConstructorggit
+@AllArgsConstructor
 @NoArgsConstructor
 public class Movie {
 
