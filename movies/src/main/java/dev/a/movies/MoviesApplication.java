@@ -14,8 +14,8 @@ public class MoviesApplication {
 	}
 
 	@GetMapping("/")
-	public String apiIndex(){
-		return "Hello World";
+	public String apiRoot() {
+		return "Hello, World!";
 	}
 
 }
